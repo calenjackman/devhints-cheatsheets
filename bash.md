@@ -804,7 +804,7 @@ Herestring allows a string to be treated as a standard input (stdin). See [Bash 
 
 ### Process substitution
 
-```sh 
+```sh
 # loop on myfunc output lines
 while read -r line; do
   echo "$line"
